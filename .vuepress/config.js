@@ -10,7 +10,7 @@ module.exports = {
       'meta',
       {
         name: 'google-site-verification',
-        content: '3SK_eEbXBonIE1ioei8UUIrdV0NWNTyFgrL_6dmMqIA'
+        content: 'w35pEFJVx__TMCmzNylxvpZU4EckDmEVfhgJ-Nz9z6o'
       }
     ]
   ],
