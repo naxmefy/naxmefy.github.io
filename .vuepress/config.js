@@ -3,7 +3,7 @@ const { googleAnalyticsPlugin } = require('@vuepress/plugin-google-analytics')
 module.exports = {
   title: 'naxmefy',
   description: 'just a dev',
-  baseUrl: 'https://naxmefy.github.io/',
+  baseUrl: 'https://nax.me/',
   extraWatchFiles: ['**/*.md', '**/*.vue'],
   head: [
     [
