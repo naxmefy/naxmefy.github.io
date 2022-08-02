@@ -22,7 +22,7 @@ jobs:
       #     GITHUB_ACTOR: ${{ github.actor }}
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       #     GITHUB_SHA: ${{ github.sha }}
-      - uses: actions/upload-pages-artifact
+      - uses: actions/upload-pages-artifact@v1
         with:
           path: '.vuepress/dist'
   deploy:
