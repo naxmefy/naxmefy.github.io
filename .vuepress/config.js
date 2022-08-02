@@ -28,7 +28,7 @@ module.exports = {
       }
     ],
     googleAnalyticsPlugin({
-      id: 'G-325582735'
+      id: 'G-TQJXKPLD1H'
     })
   ]
 }
