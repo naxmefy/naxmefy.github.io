@@ -15,8 +15,8 @@ jobs:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
 
-      - run: yarn
-      - run: yarn build
+      - run: npm install
+      - run: npm run build
       # - run: sh .github/workflows/deploy.sh
       #   env:
       #     GITHUB_ACTOR: ${{ github.actor }}

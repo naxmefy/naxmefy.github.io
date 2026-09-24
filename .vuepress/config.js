@@ -1,3 +1,4 @@
+const { defaultTheme } = require('vuepress')
 const { googleAnalyticsPlugin } = require('@vuepress/plugin-google-analytics')
 
 module.exports = {
@@ -14,6 +15,9 @@ module.exports = {
       }
     ]
   ],
+  theme: defaultTheme({
+    navbar: [{ text: 'Impressum', link: '/impressum.html' }]
+  }),
   plugins: [
     [
       'sitemap',
